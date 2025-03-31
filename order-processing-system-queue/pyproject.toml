@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "order-processing-system-queue"
+version = "0.1.0"
+description = "A backend system for order processing with in-memory queue"
+authors = ["Anurag Singh <email@anuragsingh.dev>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+fastapi = "^0.92.0"
+uvicorn = "^0.21.0"
+sqlmodel = "^0.0.8"
+pydantic = "^1.10.7"
+uvloop = "^0.21.0"
+httptools = "^0.6.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api" 
